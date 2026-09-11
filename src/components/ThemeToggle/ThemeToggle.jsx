@@ -1,0 +1,2 @@
+import { useEffect, useState } from "react";
+export default function ThemeToggle(){const [theme,setTheme]=useState(()=>localStorage.getItem("portfolio-theme")||"light");useEffect(()=>{document.documentElement.dataset.theme=theme;localStorage.setItem("portfolio-theme",theme)},[theme]);return <button className="theme-toggle" type="button" onClick={()=>setTheme(theme==="dark"?"light":"dark")} aria-label="Toggle color theme">{theme==="dark"?"☀ Light":"☾ Dark"}</button>}

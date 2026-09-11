@@ -1,0 +1,2 @@
+import { education } from "../../data/education";
+export default function Education(){return <section id="education" className="section education reveal"><div className="label">06 / EDUCATION</div><div className="content"><div className="edu-card"><div className="edu-icon">ED</div><div><small>{education.degree}</small><h3>{education.status}</h3><p>{education.target}</p><hr/><small>{education.diploma}</small><p>{education.institute}</p></div></div></div></section>}
