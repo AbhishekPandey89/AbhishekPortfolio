@@ -1,0 +1,2 @@
+import { services } from "../../data/services";
+export default function Services(){return <section id="services" className="section services reveal"><div className="label">02 / SERVICES</div><div className="content"><p className="kicker">What I can build for you.</p><h2>Digital work with <span>purpose.</span></h2><div className="service-grid">{services.map(([no,title,desc])=><article className="service" key={no}><span>{no}</span><h3>{title}</h3><p>{desc}</p><b>↗</b></article>)}</div></div></section>}

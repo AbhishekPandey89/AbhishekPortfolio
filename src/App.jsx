@@ -1,0 +1,2 @@
+import Navbar from "./components/Navbar/Navbar"; import Footer from "./components/Footer/Footer"; import Home from "./pages/Home/Home"; import useScrollProgress from "./hooks/useScrollProgress"; import useReveal from "./hooks/useReveal";
+export default function App(){const progress=useScrollProgress();useReveal();return <div className="site"><div className="progress" style={{width:`${progress}%`}}/><div className="orb orb-a"/><div className="orb orb-b"/><Navbar/><main id="top"><Home/></main><Footer/></div>}
