@@ -1,2 +1,10 @@
 import { personal } from "../../data/personal";
-export default function Contact(){return <section id="contact" className="contact reveal"><div className="contact-inner"><p className="kicker"><i/> HAVE A PROJECT IN MIND?</p><h2>Let's make your next<br/><span>website memorable.</span></h2><p>Open to React.js, MERN Stack, web development and SEO opportunities.</p><div className="contact-buttons"><a className="btn main" href={`mailto:${personal.email}`}>Email me ✉</a><a className="btn line" href="/resume/Abhishek-Pandey-Resume.pdf" target="_blank" rel="noreferrer">↓ Resume</a></div><div className="contact-info"><a href={`mailto:${personal.email}`}>✉ {personal.email}</a><a href={`tel:${personal.phone}`}>☎ {personal.phone}</a><a href={personal.github} target="_blank" rel="noreferrer"><span>GH</span> GitHub</a><a href={personal.linkedin} target="_blank" rel="noreferrer"><span>in</span> LinkedIn</a></div></div></section>}
+export default function Contact()
+ { return <section id="contact" className="contact reveal">
+    <div className="contact-inner">
+        <p className="kicker"><i /> HAVE A PROJECT IN MIND?</p>
+        <h2>Let's make your next<br /><span>website memorable.</span></h2>
+        <p>Open to React.js, MERN Stack, web development and SEO opportunities.</p>
+        <div className="contact-buttons">
+            <a className="btn main" href={`mailto:${personal.email}`}>Email me ✉</a>
+            <a className="btn line" href="/resume/Abhishek-Pandey-Resume.pdf" target="_blank" rel="noreferrer">↓ Resume</a></div><div className="contact-info"><a href={`mailto:${personal.email}`}>✉ {personal.email}</a><a href={`tel:${personal.phone}`}>☎ {personal.phone}</a><a href={personal.github} target="_blank" rel="noreferrer"><span>GH</span> GitHub</a><a href={personal.linkedin} target="_blank" rel="noreferrer"><span>in</span> LinkedIn</a></div></div></section> }
