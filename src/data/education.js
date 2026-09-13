@@ -1,1 +1,7 @@
-export const education = { degree: "B.Tech / Computer Science & Engineering", status: "Currently Pursuing", target: "Expected graduation: 2028", diploma: "Diploma in Information Technology", institute: "Feroze Gandhi Polytechnic, Rae Bareli" };
+export const education = {
+    degree: "B.Tech / Computer Science & Engineering",
+    status: "Currently Pursuing",
+    target: "Expected graduation: 2028",
+    diploma: "Diploma in Information Technology",
+    institute: "Feroze Gandhi Polytechnic, Rae Bareli"
+};
